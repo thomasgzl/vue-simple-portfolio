@@ -268,11 +268,11 @@ If you have constructive feedback for how I can improve this template, please le
 
 ## Contact :telephone_receiver:
 
-### Darian Nocera
+### Thomas Gonzalez
 
-**Email:** [hello@dariannocera.com](mailto:hello@dariannocera.com)
+**Email:** [thomasgonzalez.pro@gmail.com](mailto:thomasgonzalez.pro@gmail.com)
 
-[![Dev](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/darnocer) [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https:/.github.com/darnocer) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/darian-nocera)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https:/.github.com/thomasgzl) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/thomasgzl)
 
 ---
 
