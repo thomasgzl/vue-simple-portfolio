@@ -2,10 +2,6 @@
 
 ![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 
-### Live Demo: https://vue-portfolio-template.netlify.app/
-
-_Disclaimer: This is not the real Bob Ross or affiliated with him in anyway. Duh._
-
 # :gear: Description
 
 This is a developer portfolio template built with **Vue.js**. Knowledge of Vue is not required to use this template! Simply follow these instructions carefully to properly populate your own portfolio data.
