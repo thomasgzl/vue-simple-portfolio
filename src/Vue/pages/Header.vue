@@ -16,7 +16,7 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:#fff; font-size:28px;"></i></span>
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars" style="color:#fff; font-size:28px;"></i></span>
       </button>
       <div id="navbarNavAltMarkup" class="collapse navbar-collapse">
         <ul id="navbar-nav" class="navbar-nav ml-auto">
@@ -36,8 +36,8 @@
 </template>
 
 <script>
-import Arrow from "../components/Arrow.vue";
 import data from "../../data/data.json";
+import Arrow from "../components/Arrow.vue";
 import Banner from "../components/Banner.vue";
 
 export default {

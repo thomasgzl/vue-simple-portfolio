@@ -1,14 +1,16 @@
 {
   "main": {
     "name": {
-        "first": "Bob",
-        "last": "Ross"
+        "first": "Thomas",
+        "last": "Gonzalez"
     },
     "logo": true,
     "titles": [
-        "Famous Painter.",
-        "Television Host.",
-        "America's Sweetheart."
+        "Front-end Developer.",
+        "Vue.js & React.",
+        "UX Enjoyer!",
+        "Accessibility Lover.",
+        "SEO Learner"
     ],
     "headings": {
       "about": "About",
@@ -18,148 +20,208 @@
     }
   },
     "about": {
-      "bio": "I discovered oil painting while I was enlisted in the U.S. Air Force in Alaska in the early 1960s. I studied the 'wet-on-wet' technique, also known as 'Alla Prima', used by other great painters such as Rembrandt & Monet. This allowed me to produce complete paintings in less than an hour. I then became an art instructor, creating my iconic image and eventually teaching a TV audience of millions on the TV show The Joy of Painting.",
-      "tagline": "We don't make mistakes, just happy little accidents",
+      "bio": "Front-End Developer with over three years of experience creating web applications using Vue.js and JavaScript. Strong focus on code quality, accessibility, and Agile collaboration. Passionate about building high-performance user interfaces and continuously learning new technologies.",
+      "tagline": "Developing success, byte by byte",
       "facts": [
         {"name": "Hometown",
-        "value": "Orlando, FL"
+        "value": "Bordeaux, France"
         },
-        {"name": "Painting Technique",
-        "value": "Alla Prima"
+        {"name": "Date of birth",
+        "value": "07/26/1995"
         },
-        {"name": "# of Paintings",
-        "value": "1,143"
+        {"name": "Hobbies",
+        "value": "⚽ Football - 🏈 Flag Football - 🎮 Gaming - 🏆 Esport"
         },
         {"name": "Sun Sign",
-          "value": "Scorpio"
+          "value": "Leo"
         }
       ]
     },
     "skills": {
-    "defaultCategory": "Painting",
+    "defaultCategory": "Front-end Dev",
     
     "categories": [
       {
-        "category": "Painting",
-        "subtitle": "My true passion!",
-        "faClass": "fas fa-paint-brush",        
+        "category": "Front-end Dev",
+        "subtitle": "Vue.js & React",
+        "faClass": "fa-solid fa-code",        
         "skillList":[
           {
-            "name": "Oil Painting",
-            "level": "100"
-          },
-          {
-            "name": "Watercolor",
+            "name": "Vue.js, Javascript",
             "level": "90"
           },
-          
           {
-            "name": "Acrylic",
+            "name": "HTML5, CSS3 / SCSS",
+            "level": "80"
+          },
+                                        {
+            "name": "UI Integration, Accessibility, Responsive design",
+            "level": "80"
+          },
+          {
+            "name": "React",
             "level": "70"
           },
           {
-            "name": "Pastels",
+            "name": "Typescript",
+            "level": "60"
+          },
+                    {
+            "name": "Tailwind",
+            "level": "50"
+          }
+        ]
+      },
+
+            {
+        "category": "Back-end Dev & Databases",
+        "subtitle": "",
+        "faClass": "fa-solid fa-terminal",        
+        "skillList":[
+          {
+            "name": "Node.js, Express",
+            "level": "80"
+          },
+          {
+            "name": "MongoDB",
+            "level": "70"
+          },
+                                        {
+            "name": "SQL",
+            "level": "50"
+          }
+        ]
+      },
+
+                  {
+        "category": "Dev environments & Tools",
+        "subtitle": "",
+        "faClass": "fa-solid fa-code-merge",        
+        "skillList":[
+          {
+            "name": "Visual Studio Code",
+            "level": "90"
+          },
+          {
+            "name": "Git, Gitlab",
+            "level": "80"
+          },
+                                        {
+            "name": "Docker",
+            "level": "60"
+          },
+          {
+            "name": "CI/CD",
             "level": "60"
           }
         ]
       },
 
+
       {
-        "category": "Teaching",
+        "category": "Design",
         "subtitle": "",
-        "faClass": "fas fa-chalkboard-teacher",        
+        "faClass": "fa-solid fa-object-group",        
         "skillList":[
           {
-            "name": "Communication",
+            "name": "Adobe Illustrator",
             "level": "90"
           },
           
           {
-            "name": "Patience",
+            "name": "Adobe Photoshop",
             "level": "100"
           },
           {
-            "name": "Leadership",
-            "level": "90"
+            "name": "Adobe Premiere",
+            "level": "60"
+          }
+        ]
+      },
+            {
+        "category": "SEO & Web Optimization",
+        "subtitle": "",
+        "faClass": "fa-solid fa-broom",        
+        "skillList":[
+          {
+            "name": "Keyword research, on-site optimization, backlinking",
+            "level": "50"
+          },
+          
+          {
+            "name": "Mangools, Screaming Frog, Ahrefs, Yoast SEO",
+            "level": "50"
           }
         ]
       }
     ]
   },
 "portfolio": {
-  "defaultFilter": "mountains",
+  "defaultFilter": "dev",
   "projects": [
     {
-      "title": "Peaceful Valley",
-      "description": "S1E8",
-      "image": "peacefulvalley.png",
-      "link": "https://www.twoinchbrush.com/painting/peaceful-valley",
-      "source": "https://www.twoinchbrush.com/painting/peaceful-valley",
-      "filter": "mountains"
+      "title": "Floa Bank",
+      "description": "Part of an 8-person Agile team (5 developers, 1 Tech Lead, 1 Product Owner, 1 Scrum Master) working on the migration of the back-office and Merchant Area. Basikon (core banking system framework based on React).",
+      "image": "floa.png",
+      "link": "https://www.floabank.fr/",
+      "source": "https://www.floabank.fr/",
+      "filter": "dev"
         },
     {
-      "title": "Meadow Lake",
-      "description": "S2E1",
-      "image": "meadowlake.png",
-      "link": "https://www.twoinchbrush.com/painting/meadow-lake",
-      "source": "https://www.twoinchbrush.com/painting/meadow-lake",
-      "filter": "mountains"
+      "title": "Project Opale - ADEME",
+      "description": "Participated in the evolution of Opale, an internal tool for managing financial aid applications (administrative, technical, legal, and budget tracking). Vue.js, Typescript, HTML/CSS. Docker",
+      "image": "opale.png",
+      "link": "https://conserto.pro/clients/ademe/",
+      "source": "https://conserto.pro/clients/ademe/",
+      "filter": "dev"
     },
     {
-      "title": "Final Grace",
-      "description": "S2E13",
-      "image": "finalgrace.png",
-      "link": "https://www.twoinchbrush.com/painting/final-grace",
-      "source": "https://www.twoinchbrush.com/painting/final-grace",
-      "filter": "mountains"
+      "title": "Nodepay",
+      "description": "Built a mobile app allowing local merchants to accept cryptocurrency payments via customer wallets. React Native, Node.js, Express.",
+      "image": "nodepay.png",
+      "link": "https://x.com/nodepaycc",
+      "source": "https://x.com/nodepaycc",
+      "filter": "dev"
     },
     {
-      "title": "Purple Splendor",
-      "description": "S4E1",
-      "image": "purplesplendor.png",
+      "title": "THE ABYSS",
+      "description": "Create Identity for an esport team & a discord server. Includes Logo, Banner for social medias.",
+      "image": "aby.png",
       "link": "https://www.twoinchbrush.com/painting/purple-splendor",
       "source": "https://www.twoinchbrush.com/painting/purple-splendor",
-      "filter": "snow"
+      "filter": "design"
     },
     {
-      "title": "Winter Stillness",
-      "description": "S5E4",
-      "image": "winterstillness.png",
-      "link": "https://www.twoinchbrush.com/painting/winter-stillness",
-      "source": "https://www.twoinchbrush.com/painting/winter-stillness",
-      "filter": "snow"
+      "title": "GREAT GUYS.gg",
+      "description": "Create Identity for an esport team & a discord server. Includes Logo, Banner for social medias.",
+      "image": "gr8.png",
+      "link": "https://x.com/GR8GuysGG",
+      "source": "https://x.com/GR8GuysGG",
+      "filter": "design"
     },
     {
-      "title": "Grey Winter",
-      "description": "S7E11",
-      "image": "greywinter.png",
-      "link": "https://www.twoinchbrush.com/painting/grey-winter",
-      "source": "https://www.twoinchbrush.com/painting/grey-winter",
-      "filter": "snow"
+      "title": "athmos",
+      "description": "Design for a twitch channel. Logo, Banner, Infos panels, background, assets for streams.",
+      "image": "athmos.png",
+      "link": "https://www.twitch.tv/athmos6/about",
+      "source": "https://www.twitch.tv/athmos6/about",
+      "filter": "design"
+    },
+        {
+      "title": "Clones wear",
+      "description": "Create identity for a Streetwear, minimalist clothing brand.",
+      "image": "clones.png",
+      "link": "https://www.instagram.com/clones.wear",
+      "source": "https://www.instagram.com/clones.wear",
+      "filter": "design"
     },
     {
-      "title": "Bubbling Stream",
-      "description": "S3E3",
-      "image": "bubblingstream.png",
-      "link": "https://www.twoinchbrush.com/painting/bubbling-stream",
-      "source": "https://www.twoinchbrush.com/painting/bubbling-stream",
-      "filter": "water"
-    },
-    {
-      "title": "Blaze of Color",
-      "description": "S6E13",
-      "image": "blazeofcolor.png",
-      "link": "https://www.twoinchbrush.com/painting/blaze-of-color",
-      "source": "https://www.twoinchbrush.com/painting/blaze-of-color",
-      "filter": "water"
-    },
-    {
-      "title": "Night Light",
-      "description": "S3E8",
-      "image": "nightlight.png",
-      "link": "https://www.twoinchbrush.com/painting/night-light",
-      "source": "https://www.twoinchbrush.com/painting/night-light",
-      "filter": "water"
+      "title": "Terra Hypnotica",
+      "description": "• Keyword research and definition • Optimization of markup, links and site performance. (titles, hN, image loading and scripts) • Improvement of backlinks (identification of digital directories where to rank as a practitioner).",
+      "image": "terra.png",
+      "link": "https://terra-hypnotica.com/",
+      "source": "https://terra-hypnotica.com/",
+      "filter": "seo"
     }
 
   ]
@@ -167,28 +229,38 @@
     "contact":{
       "text": "It will be pretty hard to reach me, probably.",
       "formTitle": "Send Me A Message",
-      "formEndPoint": "",
-      "city": "Orlando, Florida",
-      "email": "info@bobross.com",
-      "phone": "1-800-BOB-ROSS",
-      "resumeLink": "https://www.twoinchbrush.com/all-paintings",
+      "formEndPoint": "https://formkeep.com/f/e08394142dc5",
+      "city": "Cognac, France",
+      "email": "thomasgonzalez.pro@gmail.com",
+      "phone": "+33 6 17 48 82 62",
+      "resumeLink": "https://www.linkedin.com/in/thomasgzl/overlay/1755250439280/single-media-viewer/?profileId=ACoAAAzYh8ABet1umNEWPGvI9dbF5RfNTn8qoIM",
       "form": true,
       
       "social": [
-          {
-            "name": "twitter",
-            "url": "https://twitter.com/bobrossofficial",
-            "faClass": "fab fa-twitter"
+                    {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/thomasgzl/",
+            "faClass": "fa-brands fa-linkedin-in"
           },
           {
-            "name": "facebook",
-            "url": "https://www.facebook.com/TheJoyofPaintingWithBobRoss/",
-            "faClass": "fab fa-facebook-f"
+            "name": "github",
+            "url": "https://github.com/thomasgzl",
+            "faClass": "fa-brands fa-github"
+          },
+                    {
+            "name": "upwork",
+            "url": "https://www.upwork.com/freelancers/~01b83bce1474587a67",
+            "faClass": "fa-brands fa-upwork"
+          },
+                    {
+            "name": "twitter",
+            "url": "https://twitter.com/athmos6",
+            "faClass": "fa-brands fa-twitter"
           },
           {
             "name": "instagram",
-            "url": "https://www.instagram.com/bobross_thejoyofpainting/",
-            "faClass": "fab fa-instagram"
+            "url": "https://www.instagram.com/athmos6",
+            "faClass": "fa-brands fa-instagram"
           }
         ]
       },

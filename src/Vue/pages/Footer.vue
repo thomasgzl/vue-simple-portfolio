@@ -26,7 +26,7 @@
         :key="i"
         class="social-item list-inline-item"
       >
-        <a :href="item.url" :alt="item.name">
+        <a :href="item.url" :alt="item.name" target="_blank">
           <i :class="item.faClass"> </i>
         </a>
       </li>
@@ -44,9 +44,10 @@
         Designed with 👽 by
         <a
           id="username"
-          href="https://www.github.com/darnocer"
-          alt="Darian's Github"
-          >darnocer</a
+          href="https://www.github.com/thomasgzl"
+          alt="thomas github"
+          target=”_blank”
+          >thomasgzl</a
         >
       </p>
     </div>

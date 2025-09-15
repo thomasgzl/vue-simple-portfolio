@@ -40,7 +40,7 @@
                   <p>{{ item.description }}</p>
                   <div v-if="item.source !== '' " class="link-icons">
                     <a :href="item.source" title="Source Code" target="_blank">
-                      <i class="fas fa-code fa-2x"></i>
+                      <i class="fa-solid fa-code fa-2x"></i>
                     </a>
                   </div>
                 </div>

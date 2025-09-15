@@ -17,7 +17,7 @@
               <ul class="list-group list-group-flush">
                 <li v-if="contact.city !==''" class="list-group-item">
                   <h3 class="d-inline">
-                    <i class="fas fa-map-marker-alt"></i> Location:
+                    <i class="fa-solid fa-map-marker-alt"></i> Location:
                   </h3>
                   <br class="d-md-none" />
                   <span>&nbsp; {{ contact.city }}</span>
@@ -34,7 +34,7 @@
 
                 <li class="list-group-item" v-if="contact.phone !==''">
                   <h3 class="d-inline">
-                    <i class="fas fa-phone"></i>  Phone:
+                    <i class="fa-solid fa-phone"></i>  Phone:
                   </h3>
                   <br class="d-md-none" />
                   
@@ -43,7 +43,7 @@
                 </li>
                 <li class="list-group-item">
                   <h3 class="d-inline">
-                    <i class="fas fa-user-plus"></i> Social:
+                    <i class="fa-solid fa-user-plus"></i> Social:
                   </h3>
                   <br class="d-md-none" />
 
@@ -60,7 +60,7 @@
                 <li class="list-group-item" v-if="contact.resumeLink !==''">
                   <a :href="contact.resumeLink" target="_blank" alt="resume">
                   <button class="btn btn-resume"  target="_blank">
-                    <i class="far fa-file-pdf"></i> Resume
+                    <i class="fa-regular fa-file-pdf"></i> Resume
                   </button>
                   </a>
 
@@ -81,7 +81,7 @@
 <!-- start of contact form  -->
 
 <div class="container contact-form">
-  <form :action="contact.formEndPoint" method="POST" target="_blank">
+  <form :action="contact.formEndPoint" accept-charset="UTF-8" enctype="multipart/form-data" method="POST" target="_blank">
     <div class="form-group">
       <div class="input-group">
         <div class="input-group-prepend">
@@ -89,7 +89,7 @@
             <i class="fa fa-user"></i>&nbsp;
           </span>
         </div>
-        <input name="name" type="name" placeholder="Name" class="form-control border-left-0" required>
+        <input name="name" id="name" type="name" placeholder="Name" class="form-control border-left-0" required>
       </div>
     </div>
 
@@ -100,13 +100,14 @@
             <i class="fa fa-envelope"></i>
           </span>
         </div>
-        <input name="email" type="email" placeholder="Email" class="form-control border-left-0" required>
+        <input name="email" id="email-address" type="email" placeholder="Email" class="form-control border-left-0" required>
       </div>
     </div>
 
     <div class="form-group">
-      <textarea class="form-control" id="message" rows="5" placeholder="Message" required></textarea>
+      <textarea name="message" class="form-control" id="message" rows="5" placeholder="Message" required></textarea>
     </div>
+
 
     <button type="submit" class="btn">
       <i class="fa fa-paper-plane"></i> 
@@ -125,7 +126,7 @@
 
     <div class="row arrow-container">
       <a class="arrow-icon" href="#">
-        <i class="fas fa-chevron-up fa-4x"></i>
+        <i class="fa-solid fa-chevron-up fa-4x"></i>
       </a>
     </div>
 
